@@ -1,0 +1,41 @@
+.news-letter-container {
+    background-color: var(--dark-color);
+    margin-top: 25px;
+}
+
+.news-letter-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+}
+
+.news-letter-box {
+    display: flex;
+    align-items: center;
+}
+
+.news-left h1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.news-left p {
+    color: var(--light-text-color);
+    font-size: 14px;
+    line-height: 2;
+}
+
+.news-left span {
+    color: var(--primary-color);
+}
+
+
+.news-right {
+    display: flex;
+    align-items: center;
+}
+
+.news-letter-search {
+    width: 500px;
+}

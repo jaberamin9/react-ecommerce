@@ -1,0 +1,89 @@
+.category-box {
+    display: grid;
+    font-family: 'Poppins';
+    grid-template-columns: 1fr 3fr;
+}
+
+.category-box .category-box-left {
+    width: 300px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+}
+
+.category-box .category-box-left .category-box-left-item {
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 15px;
+}
+
+.category-box .category-box-left .category-box-left-item h6 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.category-box .category-box-left .category-box-left-item .category-item {
+    display: flex;
+    padding: 2px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.category-box .category-box-left .category-box-left-item .category-item p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.category-box .category-box-right {
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.category-box .category-box-right .category-name {
+    margin: 20px 0;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.category-box .category-box-right .category-product-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+
+
+.category-box .category-box-left .category-box-left-item .category-item .color-element {
+    display: flex;
+    gap: 7px;
+    margin-top: 0px;
+}
+
+.category-box .category-box-left .category-box-left-item .category-item .color-element .element {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid var(--light-bg-color);
+}
+
+.category-box .category-box-left .category-box-left-item .category-item .color-element .element:hover {
+    box-shadow: inset 0 0 0 3px white;
+    border: 2px solid var(--dark-color);
+}
+
+.category-box .category-box-right .filter-box {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.category-box .category-box-right .filter-box .sort-box .sort-select-input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: var(--border-color);
+    color: var(--light-text-color);
+}

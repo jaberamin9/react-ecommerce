@@ -1,0 +1,273 @@
+.product-content-box h1 {
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.product-content-box .ratting {
+    display: flex;
+    align-items: center;
+    margin-top: 8px !important;
+}
+
+.product-content-box .ratting i {
+    font-size: 13px;
+    color: rgb(249, 171, 53);
+}
+
+.product-content-box .ratting p {
+    color: var(--light-text-color);
+    margin-left: 8px;
+    font-size: 10px;
+}
+
+.product-content-box .price {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.product-content-box .price h2 {
+    color: var(--primary-color);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.product-content-box .price del {
+    color: var(--light-text-color);
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+.product-content-box .stock-box {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.product-content-box .stock-box .stock {
+    background-color: var(--light-bg-color);
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 13px;
+    color: rgb(63, 211, 97);
+    font-weight: 500;
+}
+
+.product-content-box .stock-box p {
+    margin-left: 5px;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 13px;
+    color: var(--light-text-color);
+}
+
+.product-content-box .color {
+    margin-top: 10px;
+}
+
+.product-content-box .color h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product-content-box .color .color-element {
+    display: flex;
+    gap: 7px;
+    margin-top: 8px;
+}
+
+.product-content-box .color .color-element .element {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid var(--light-bg-color);
+}
+
+.product-content-box .color .color-element .element:hover {
+    box-shadow: inset 0 0 0 3px white;
+    border: 2px solid var(--dark-color);
+}
+
+
+.product-content-box .size {
+    margin-top: 10px;
+}
+
+.product-content-box .size h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product-content-box .size .size-element {
+    display: flex;
+    gap: 7px;
+    margin-top: 8px;
+}
+
+
+.product-content-box .size .size-element .element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid var(--light-bg-color);
+    background-color: var(--light-bg-color);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.product-content-box .size .size-element .element:hover {
+    border: 2px solid var(--dark-color);
+    background-color: var(--dark-color);
+    color: white;
+    box-shadow: inset 0 0 0 3px white;
+}
+
+
+.product-content-box .qun-and-btn-box {
+    display: flex;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.product-content-box .qun-and-btn-box .qun-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 2px solid var(--border-color);
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.product-content-box .qun-and-btn-box .qun-box .element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid var(--light-bg-color);
+    background-color: var(--light-bg-color);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.product-content-box .qun-and-btn-box .qun-box .element-txt {
+    width: 27px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    border: none;
+    outline: none;
+}
+
+.product-content-box .qun-and-btn-box .qun-box .element-txt:focus {
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.product-content-box .qun-and-btn-box .qun-box .element:hover {
+    border: 4px solid var(--border-color);
+    background-color: var(--border-color);
+}
+
+.product-content-box .qun-and-btn-box .bnt-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-content-box .qun-and-btn-box .btn {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.product-content-box .qun-and-btn-box .btn1 {
+    background-color: var(--secondary-dark-color);
+}
+
+.product-content-box .qun-and-btn-box .btn2 {
+    background-color: var(--primary-color);
+}
+
+.product-content-box .qun-and-btn-box .btn2:hover {
+    background-color: var(--dark-color);
+}
+
+.product-content-box .qun-and-btn-box .btn1:hover {
+    background-color: var(--dark-color);
+}
+
+.product-content-box .share-box {
+    padding: 30px 0;
+}
+
+.product-content-box .share-box .share {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+.product-content-box .share-box .share:hover {
+    background-color: var(--border-color);
+}
+
+.product-content-box .share-box .share i {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.product-content-box .share-box .share span {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.product-content-box .drop-down-product-info {
+    margin-top: -10px;
+}
+
+.product-content-box .drop-down-product .drop-down-product-head {
+    padding: 12px 0px;
+    border-top: 2px solid var(--border-color);
+    cursor: pointer;
+}
+
+.product-content-box .drop-down-product .drop-down-product-head span {
+    font-size: 16px;
+    font-weight: 800;
+    margin-right: 15px;
+    width: 6px;
+    display: inline-block;
+}
+
+.product-content-box .drop-down-product .drop-down-product-head p {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.product-content-box .drop-down-product .drop-down-product-content {
+    margin-left: 25px;
+    margin-bottom: 13px;
+}
+
+.product-content-box .drop-down-product .drop-down-product-content p {
+    font-size: 13px;
+    font-weight: 400;
+}

@@ -1,0 +1,189 @@
+.cart {
+    padding: 40px 0;
+}
+
+.cart h1 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    margin-top: -10px;
+    padding-bottom: 30px;
+}
+
+.cart .cart-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+}
+
+.cart .cart-box .cart-box-left table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart .cart-box .cart-box-left th,
+td {
+    border-style: none;
+}
+
+.cart .cart-box .cart-box-left table tr th {
+    text-align: left;
+    background-color: var(--light-bg-color);
+    padding: 20px;
+}
+
+.cart .cart-box .cart-box-left td img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.cart .cart-box .cart-box-left table tr td {
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cart .cart-box .cart-box-left table .table-row {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.cart .cart-box .cart-box-left .img-and-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 0;
+}
+
+.cart .cart-box .cart-box-left table tr .qun-btn-box .qun-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100px;
+    border: 1px solid var(--border-color);
+    line-height: 2rem;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.cart .cart-box .cart-box-left table tr .qun-btn-box .qun-btn span {
+    width: 100%;
+    text-align: center;
+}
+
+.cart .cart-box .cart-box-left table tr .qun-btn-box .qun-btn span:hover {
+    background-color: var(--border-color);
+    cursor: pointer;
+}
+
+.cart .cart-box .cart-box-left table tr .qun-btn-box .qun-btn input {
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.cart .cart-box .cart-box-left table tr .subtotal-box {
+
+    padding-right: 10px;
+}
+
+.cart .cart-box .cart-box-left table tr .subtotal-box .subtotal-box-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.cart .cart-box .cart-box-left table tr .subtotal-box .subtotal-box-element i {
+    padding: 1px 3px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.cart .cart-box .cart-box-left table tr .subtotal-box .subtotal-box-element i:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+    background-color: var(--border-color);
+    border-radius: 4px;
+}
+
+
+
+
+/* right part */
+
+
+.cart .cart-box .cart-box-right .coupon-code-box input {
+    width: calc(100% - 100px);
+    padding: 14px;
+    border: none;
+    outline: none;
+    border-left: 3px solid var(--dark-color);
+    border-top: 3px solid var(--dark-color);
+    border-bottom: 3px solid var(--dark-color);
+    font-weight: 600;
+}
+
+.cart .cart-box .cart-box-right .coupon-code-box button {
+    width: 100px;
+    padding: 14px 0;
+    border: none;
+    background-color: var(--dark-color);
+    color: white;
+    border: 3px solid var(--dark-color);
+}
+
+.cart .cart-box .cart-box-right .coupon-code-box button:hover {
+    background-color: var(--secondary-dark-color);
+    cursor: pointer;
+    border: 3px solid var(--secondary-dark-color);
+}
+
+.cart .cart-box .cart-box-right .total-cost-box {
+    background-color: var(--border-color);
+    padding: 26px;
+}
+
+.cart .cart-box .cart-box-right .total-cost-box .total-cost-item {
+    display: flex;
+    gap: 10px;
+}
+
+.cart .cart-box .cart-box-right .total-cost-box .total-cost-item .sdt {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6rem;
+}
+
+.cart .cart-box .cart-box-right .total-cost-box .total-cost-item .cost {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6rem;
+    text-align: right;
+}
+
+.cart .cart-box .cart-box-right .total-cost-box .total-cost-item .f-big {
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.cart .cart-box .cart-box-right .check-out-btn {
+    width: 100%;
+    margin-top: 40px;
+    background-color: var(--secondary-dark-color);
+    padding: 16px;
+    color: white;
+    font-size: 16px;
+    border-radius: 40px;
+    border: none;
+}
+
+.cart .cart-box .cart-box-right .check-out-btn:hover {
+    cursor: pointer;
+    background-color: var(--dark-color);
+}
